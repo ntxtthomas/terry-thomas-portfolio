@@ -1,0 +1,17 @@
+h1 {
+	color: #820000;
+	font-size: 5em;
+}
+body {
+	background-color: #ffffcc;
+}
+body {
+	background-image: url("http://i76.photobucket.com/albums/j3/apmtthomas/2011-05-22_14-53-35_19_zpsbzjzi1bi.jpg"); 
+}
+li {
+	font-weight: bold;
+}
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 15em;
+    }
