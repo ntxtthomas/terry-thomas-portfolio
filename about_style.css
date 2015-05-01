@@ -1,17 +1,77 @@
-h1 {
-	color: #820000;
-	font-size: 5em;
+body {
+  color: 222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvitica Neue", sans-serif;
+}
+.masthead-heading,
+.masthead-intro {
+    text-align: right;
+    color: #85909C;
+  }
+.masthead {
+    padding-left: 10em;
+    padding-right: 2.5em;
+    padding-top: .1em;
+    padding-bottom: 15em;
+    background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/2011-05-22_14-53-35_19_zpsbzjzi1bi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*border-top: solid 1em #FFCF33; why?*/
+}
+.masthead-intro {
+    margin-bottom: 1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+.masthead-heading {
+    margin-top: -0.7em;
+    font-family: "Open Sans", "Helvitica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: -0.02em;
+    text-transformation: uppercase
 }
 body {
-	background-color: #ffffcc;
+    background-color: #D5C5AE;
 }
-body {
-	background-image: url("http://i76.photobucket.com/albums/j3/apmtthomas/2011-05-22_14-53-35_19_zpsbzjzi1bi.jpg"); 
+    /* trying to reduce the line spacing between <h1>'s and <h4>'s and <p>-not responding to line-height:;, why?*/
+
+.footer-section,
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
 }
-li {
-	font-weight: bold;
+.footer-section {
+    text-align: center;  
 }
+.social > li {
+    display: inline-block;
+}
+/*.footer-section > p {
+  color: white;  why?*/
+}
+.introduction-section > p,
+.location-section > p,
+.footer-section > p {
+    font-weight: 300;
+    letter-spacing: .05em;
+}
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold; 
+    margin: 2em 0 1em 0;
+}
+section > h1,
+section > h4 {
+  margin-top: 2em; 
+  color: #5A2100;
+ }
 @media only screen and (max-width: 500px) {
-    .masthead-heading {
-        font-size: 15em;
+    .masthead-heading, .footer-section {
+        font-size: 2em;
     }
