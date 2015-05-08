@@ -39,7 +39,8 @@ body {
 .footer-section,
 .introduction-section,
 .location-section,
-.questions-section {
+.questions-section, 
+.projects-section {
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
@@ -70,6 +71,12 @@ section > h1,
 section > h4 {
   margin-top: 2em; 
   color: #5A2100;
+ }
+ .hacked-times, .landing-page {
+ 	padding-left: 10em;
+    padding-right: 2.5em;
+    padding-top: .1em;
+    padding-bottom: 15em;
  }
 @media only screen and (max-width: 500px) {
     .masthead-heading, .footer-section {
