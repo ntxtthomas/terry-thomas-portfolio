@@ -76,9 +76,8 @@ section > h4 {
  	padding-left: 10em;
     padding-right: 2.5em;
     padding-top: .1em;
-    padding-bottom: 15em;
-    max-width: 40px;
-    max-height: 20px;
+    padding-bottom: 5em;
+    max-width: 500px;
  }
 @media only screen and (max-width: 500px) {
     .masthead-heading, .footer-section {
